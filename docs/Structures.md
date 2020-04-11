@@ -76,24 +76,60 @@ Los procesos biológicos no son estáticos y la vida depende de la dinámica mol
 * Simulaciones de dinámica molecular
 * Campo de fuerza
 * Ensambles
-* Simulaciones
 * Análisis de SDM
+* [MDanalysis](https://www.mdanalysis.org)
+* [Openmm](http://openmm.org)
 
 ## Lecturas
 [Simulaciones de dinámica molecular (SDM)](https://doi.org/10.1016/B978-0-12-809633-8.20284-7)
 [SDM y diseño de fármacos](https://www.sciencedirect.com/science/article/pii/B9780128096338201544)
+[Algoritmo de simulaciones de dinámica molecular - Capítulo 3.4](https://ftp.gromacs.org/pub/manual/manual-5.0.4.pdf)
+[Campos de fuerza - Capítulo 3.1](https://ambermd.org/doc12/Amber19.pdf)
+[Premio Nobel de Química 2013](https://www.youtube.com/watch?v=NuaeD9xYBtY)
 
 ## Actividades
-*
+* Instala openmm y mdanalysis
+* Crear un ensamble termodinámico con openmm-setup
+* Ejecutar una simulacion de dinámica molecular con openmm: minimización, equilibración y producción.
+* Analizar la trayectoria en cuaderno de Jupyter con MDanalysis.
 
 # Extras [Opcional].
 
-## Módulos python
+## Módulos python para análisis de estructuras
 * [Prody](http://prody.csb.pitt.edu)
 * [Biopandas](http://rasbt.github.io/biopandas)
-* [MDanalysis](https://www.mdanalysis.org)
 * [Pytraj](https://amber-md.github.io/pytraj/latest/index.html)
+* [MDTraj](http://mdtraj.org)
+* [Bio3D](http://thegrantlab.org/bio3d)
 
+## Bioinformático de refinado de datos cristalográficos
+En cristalografía de rayos X, al obtener el mapa de densidad electrónica y con una fase se debe refinar el modelo para ellos se dispone de software que nos permite realiar esta tarea, desarrollando un modelo del sistema y definiendo parámetros de la resolución y de confiabilidad por regiones de la proteína. Un bioinformático puede desarrollar estas tareas. 
+
+Software escrito o con interfaz en Python
+* [Phenix](http://www.phenix-online.org)
 * [General MacroMocelecular I/O (GEMMI)](https://gemmi.readthedocs.io)
-* Diseño de fármacos
-* Evaluación del efecto de mutaciones en proteínas
+* [CCP4](http://www.ccp4.ac.uk)
+
+## Diseño de fármacos
+El diseño de fármacos es una aplicación de la bioinformática donde la estructura de proteínas se entrelaza con la quimioinformática, principalmente en el manejo de base de datos de moléculas pequeñas, el estudio de sus propiedades y el desarrollo de experimentos de cribado molecular en conjunto con cálculos de energía libre que es indirectamente proporcional a la afinidad entre moléculas, en esta última se desarrollan cálculos termodinámicos que van desde la enegría libre desde el cálculo de nergías de solvatación, la integración termódinámica, perturbaciones de energía libre y energía libre calculada desde trabajo, entre otros.
+
+* [PBSA and GBSA Capítulo 32-33](https://ambermd.org/doc12/Amber19.pdf) 
+* Perturbaciones de Energía libre. [FEP v/s GBSA en PIP](https://doi.org/10.1016/j.jmb.2019.02.003)  
+* [Integración termodinámica - Capítulo 21.1](https://ambermd.org/doc12/Amber19.pdf)
+* Energía calculada desde trabajo. [Paprika](https://github.com/slochower/pAPRika)|[BLUEs](https://github.com/MobleyLab/blues)
+* Quimiometría: [RDkit](https://www.rdkit.org)|[OpenBabel](http://openbabel.org)
+* Base de datos: [ZINC](https://zinc.docking.org)
+
+## Evaluación del efecto de mutaciones en proteínas
+La bioinformática posee varias subdisciplinas donde destaca el análisis de estructuras de proteínas y la genómica, no obstante durante los últimos años ambas disciplinas se han solapado para poder estudiar el efecto de mutaciones en genes en la función de proteínas. Estas metodologías combinan un procesamiento para la identificación de las variantes del individuo con el genoma de referencia, la clínica del paciente y el estudio del efecto de estas mutaciones en la proteína.
+
+* Automatizar la configuración y análisis de mutaciones en la unión de fármacos. [Referencia](https://doi.org/10.1186/s12859-019-2774-9)
+* Evaluar el efecto de las mutaciones en el plegamiento. [Referencia](https://doi.org/10.1073/pnas.1715896115)
+* Evaluar el efecto de mutaciones en la interfaz de proteína-proteína. [Referencia](https://doi.org/10.1371/journal.pone.0219935)
+
+## Crio-miscropía electrónica
+La criomiscropía electrónica es una técnica para obtener la disposición espacial de proteínas, en un princicpio se logran resoluciones de alrededor de los 10 Amstrong, no obstante con el avance de la técnica y del refinameinto mediante software hoy en día se pueden logar resolutiones cercanas a 3 Amstrong, lo que ha producido un desarrollo rápìdo de experimentos para observar sistemas más grandes, complejos y en condiciones naturales.
+
+* [Premio Nobel de Química 2017](https://www.youtube.com/watch?v=026rzTXb1zw)
+* [Software para resolver Criomicroscopía electrónica](https://dx.doi.org/10.1038%2Fs41592-019-0396-9)
+* [Py-EM](https://git.embl.de/schorb/pyem)
