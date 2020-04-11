@@ -1,6 +1,6 @@
 # Investigar y Analizar.
 
-Habilidad muy importante spara un bioinformáticos son el análisis crítico de artículos, la comunicación de resultados y el autoaprendizaje. Con estas actividades se buscar entrenar estas habilidades, donde además podremos descrubrir conocimiento, técnicas y mecanismos muy relevantes para sus intereses y trabajos futuros. El leer artículos científicos implica conocer la estructura de estos, para luego organizarlos en bibliotecas perosonales que sean fuente de futuros proyectos y sus propios artíuclos científicos.
+Una habilidad muy importante para un bioinformáticos son el análisis crítico de artículos, la comunicación de resultados y el autoaprendizaje. Con estas actividades se buscar entrenar estas habilidades, donde además podremos descrubrir conocimiento, técnicas y mecanismos muy relevantes para sus intereses y trabajos futuros. El leer artículos científicos implica conocer la estructura de estos, para luego organizarlos en bibliotecas perosonales que sean fuente de futuros proyectos y sus propios artíuclos científicos.
 
 ## Instrucciones
 
@@ -12,12 +12,12 @@ Se avisará al seleccionado el día anterior de las clases.
 
 ## Selección de presentaciones de años anteriores
 
-* [Mecanismos de comunicación entre dominios en un importador ABC]()
-*  Identificación in silico de sitios de rescate mediante escaneo de doble fuerza
-*  Binding site characteristics in structure-based virtual screening
-* CodonGenie
-* Encapsulation  gemcitabine anticancer drug
-* Refining the reaction mechanism of O2
+* [Mecanismos de comunicación entre dominios en un importador ABC](https://github.com/labnanocell/bioinf_4115025/blob/master/seminario/Selecci%C3%B3n_2018/Mecanismos%20de%20comunicaci%C3%B3n%20entre%20dominios%20en%20un%20importador%20ABC.pdf)
+* [Identificación in silico de sitios de rescate mediante escaneo de doble fuerza]https://github.com/labnanocell/bioinf_4115025/blob/master/seminario/Selecci%C3%B3n_2018/Identificaci%C3%B3n%20in%20silico%20de%20sitios%20de%20rescate%20mediante%20escaneo%20de%20doble%20fuerza.pdf
+* [Binding site characteristics in structure-based virtual screening](https://github.com/labnanocell/bioinf_4115025/blob/master/seminario/Selecci%C3%B3n_2018/%20Binding%20site%20characteristics%20in%20structure-based%20virtual%20screening.pdf)
+* [CodonGenie](https://github.com/labnanocell/bioinf_4115025/blob/master/seminario/Selecci%C3%B3n_2018/CodonGenie.pdf)
+* [Encapsulation  gemcitabine anticancer drug](https://github.com/labnanocell/bioinf_4115025/blob/master/seminario/Selecci%C3%B3n_2018/Encapsulation%20%20gemcitabine%20anticancer%20drug.pdf)
+* [Refining the reaction mechanism of O2](https://github.com/labnanocell/bioinf_4115025/blob/master/seminario/Selecci%C3%B3n_2018/Refining%20the%20reaction%20mechanism%20of%20O2.pdf)
 
 ## Evaluaciones
 LA evaluación será mediante un rúbrica que se detalla a continuación.
