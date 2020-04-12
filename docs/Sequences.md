@@ -1,11 +1,10 @@
 # Análisis de Secuencias Biológicas
-El análisis de secuencias es una de las primera aplicaciones en bioinformática que aprenderemos, esta es la base para una serie de análisis posteriorres que se aplican tanto para secuencias de ADN y secuencias de proteínas, estas bases son esenciales para poder trabajar como bioinformático en análisis genómicos y estructurales.
-
+El análisis de secuencias es una de las primera aplicaciones en bioinformática que aprenderemos, esta es la base para elucidar mecanismos biológicos y moleculares desde las propiedades evolutivas y de herencia que se aplican tanto para secuencias de ADN y secuencias de proteínas, estas bases son esenciales para poder trabajar como bioinformático en análisis genómicos y estructurales para comprender la relación secuencia-función.
 
 RA: Realizar análisis de secuencias de origen biológico.
 EV: Desarrollar una función en python en cuaderno de programación para realizar una tarea asignada de análisis de secuencias.
 
-# Módulos Python Bioinformáticos
+# Módulos Python para Bioinformáticos 
 Para realizar análisis de secuencias primero debemos explorar algunas bibliotecas de Python que utilizaremos durante esta unidad. Biopython es una biblioteca que nos conecta con las principales tareas bioinformáticas que debemos realizar, así como nos permite trabajar con algunas bases de datos donde destaca Entrez (que incluye al National Centre for Biotechnology Information-NCBI), ExPASy (Expert Protein Analysis System), y RCSB (Research Collaboratory for Structural Bioinformatics PDB). 
 
 ## Conceptos:
@@ -24,7 +23,7 @@ Para realizar análisis de secuencias primero debemos explorar algunas bibliotec
 * Generar una DataFrame con Pandas de frecuencia de nucleotidos.
 * Graficar la tabla con seaborn.
 
-# Descripción de secuencias biológicas
+# Descripción de Secuencias Biológicas
 Las secuencias biológicas son de dos tipos princiaples de nucleótidos y de proteínas, y cada una como objeto biológicoposee sus atributos que dependen de sus propiedades biológicas, operaciones como la transcripción y replicación, el formato son propias de estos elementos así como la conexión de las bases de datos.
 
 ## Conceptos
@@ -64,13 +63,12 @@ Conceptos:
 * [Algoritmo de Smith-Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)
 * [BLAST](https://es.wikipedia.org/wiki/BLAST)
 
-
 ## Actividades
 * Crear en Jupyter una matriz de similaridad
 * Crear una función de scoring
 * Realizar un BLAST con Biopython.
 
-# Alineamiento
+# Alineamiento de Secuencias
 El alineamiento de secuencias es una de las herramientas básicas de un biuoinformático y se utiliza para extrapolar información desde organismos, genes y proteínas conocidas a otros. También, se utiliza para identificar patrones relacionados a una función y estudiar las variaciones de las secuencias en el tiempo. El alinemaiento de secuencias es una herramienta bases para las búsquedad por similaridad, los análisis de conservación, la reconstrucción de filogenia y el modelamiento comparativo de proteínas.
 
 ## Conceptos:
@@ -110,7 +108,7 @@ La reconstrucción de filogenia e suna herramienta para explorar la historia evo
 * Construir filogenia RAxML desde Jupyter.
 * Visualizar en iTOL.
 
-# Diseño de partidores
+# Diseño de Partidores
 El diseño de partidores es una herramienta fundamental en biología molecular, y los bioinformáticos pueden requerir diseñar partidores para realizar amplificaciones por reacción en cadena de la polimerasa (PCR) para identificar organismos, para realizar clonamiento de genes, para introducir mutaciones sitio dirigidas, para realizar editado de genes, cuantificar cantidad de transcritos y silenciar genes, entre otras aplicaciones basadas en la complementariedad del ADN y enzimas involucradas en su procesamiento. 
 
 ## Conceptos

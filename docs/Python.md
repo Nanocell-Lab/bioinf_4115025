@@ -1,7 +1,7 @@
 # Programando en Python
-Un bioinformático debe ser muy hábil en al menos un lenguaje de programación. Python es un leguaje orientado a objetos de prototipado rápido que es la base para añadir usa serie de módulos (bibliotecas), que nos permiten obtener funciones para tareas más específicas. Por otra parte, nos permite realizar programas desde un nivel de poco código para analizar un dato hasta programas complejos con módulos interaz gráficas y miles de líneas de código. EL lenguaje Python ha sido ampliamnete adoptados por los científicos y junto con Java y C++ son ideales para desarrollar proyectos bioinformáticos.
+El lenguaje Python ha sido ampliamnete adoptados por los científicos y junto con Java y C++ son ideales para desarrollar proyectos bioinformáticos. Un bioinformático debe ser muy hábil en al menos un lenguaje de programación. Python es un leguaje orientado a objetos de prototipado rápido que es la base para añadir usa serie de módulos (bibliotecas), que nos permiten obtener funciones para tareas más específicas. Por otra parte, nos permite realizar programas desde un nivel de poco código para analizar un dato hasta programas complejos con módulos interaz gráficas y miles de líneas de código. 
 
-Motivaciön
+Motivación
 * [An Introduction to Programming for Bioscientists: A Python-Based Primer](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004867)
 
 Este es el contenido que iremos revisando en el curso, donde se trabajará en un contexto general y revisión de 15-20 minutos por concepto con 30 minutos de una actividad. 
@@ -29,7 +29,7 @@ En esta sesión configuraremos un entorno de programación para aprender a progr
 * Habilitar entorno de programación
 * Ejecutar código Python en cuaderno Jupyter
 
-# Variables
+# Variables en Python
 Las variables son los elementos básicos de datos que manipularemos en Python, estos poseen atributos específicos dependiendo de su tipo y operaciones que se pueden realizar con ellos.
 
 ## Conceptos clave:
@@ -45,7 +45,7 @@ Las variables son los elementos básicos de datos que manipularemos en Python, e
 ## Actividades
 * Crear cuaderno jupyter que incluya operaciones con las variables.
 
-# Controles de Flujo
+# Controles de Flujo en Python
 Con el conocimiento de las variables y operaciones con ellas podemos hacer control de flujo para el programa que diseñemos tome **decisiones** frente a distintos escenarios, estas se programan con los comandos base que a continuación aprenderemos. 
 
 * if, elif, else
@@ -55,7 +55,7 @@ Con el conocimiento de las variables y operaciones con ellas podemos hacer contr
 ## Lecturas
 * [Tutorial Oficial Python 3 - Pag16-18](http://docs.python.org.ar/tutorial/pdfs/TutorialPython3.pdf)
 
-# Funciones
+# Funciones en Python
 Un Bioinformático que diseña una tarea y la encapssula en un código puede requerir de este en varios escenarios, este empaquetamiento primario se denomina función, que puede requerir parámetros y entregar resultados. Las funciones son la columna vertebral de un buen programa.
 
 ## Concepctos clave:
@@ -68,7 +68,7 @@ Un Bioinformático que diseña una tarea y la encapssula en un código puede req
 
 ## Actividades
 
-# Estructura de Datos
+# Estructura de Datos en Python
 Muchas veces desde un experimento recibimos los datos de manera cruda (raw), es decir estos necesitan una estructura para poder generar conclusiones con ellos, incluso para poder organizarlos en tablas y funciones. Estos datos se organizan elementos base los que se denominan **contenedores**, donde lso tipos de Python son las cadenas, listas, tuplas y diccionarios.
 
 ## Conceptos clave:

@@ -45,18 +45,19 @@ Esta asignatura aporta a las siguientes competencias del perfil de egreso del Ma
 4.	Competencia de trabajo bajo presión y con múltiples tareas. Esto puede ser un trabajo de alta presión con plazos que han de cumplirse. Debe poseer una alta capacidad de organización, planificación  y de asignación de prioridades.
 5.	Competente en un lenguaje de programación. El comprender la lógica e implementación de algoritmos permitirá desarrollar pequeños códigos (scripts) que permitan optimizar o realizar nuevas tareas eficientemente.
 
-## Competencias específicas.
-1.	Linux básico. Sí se encuentra en un nivel de administración es aún mejor. Se recomienda instalar Linux en su computadora y utilizarla exclusivamente por un tiempo.
-2.	Programación básica de Bash. El manejo óptimo de la terminal y tareas de procesos cotidianas pueden ser realizadas con algunos poco comandos.
-3.	Competente en lenguaje de programación. Durante este curso se trabajará con Python. Incluyendo el módulo “biopython”, “prody”, entre otros.
-4.	Altamente competente en aplicaciones bioinformáticas. Aplicaciones en análisis de secuencias y análisis estructural con un dominio de las bases biológicas. Matemáticas e informáticas utilizadas por cada aplicación.
-5.	Altamente competente servidores de herramientas bioinformáticas. Como el Centro Nacional de Bioinformática (NCBI), EBI y EMBOSS. 
+## Resultados de Aprendizaje
 
+1. Ejecución y monitoreo de trabajos en forma local y remota en entornos de terminal de sistemas operativos linux o analogos.
+2. Programar código computacional en lenguaje de programación Python.
+3. Analizar datos desde secuencias de nucleotidos y proteínas obtenidas desde bases de datos o experimentos, alinear secuencias, realizar análisis de conservación, reconstrucción de filogenia, identificación de patrones y diseñor de partidores.
+4. Reaizar análisis de estructuras de proteínas desde la visualización hasta complejas simulaciones de dinámica molecular para establecer las relaciones estructura función.
+5. Comunicar resultados de investigaciones relacionadas a la bioinformática.
+Investigar un mecanismo molecular con herramientas bioinformáticas.
 
 ## Tipos de Actividades
-* [Planificación de Contenido.](#curriculum) Entrega de contenidos en clases sincrónicas y asincrónicas, documento de lecturas.
-* [Investigar y Analizar.](Journal.md) Presentación de artículos científicos.
-* [Proyecto.](Project.md) Se desarrollará un proyecto en el curso que será diseñado para tributar en la tesis que se realizará para desarrollar un obejtivo bioinformático.
+* [Planificación de Contenido.](#curriculum) Entrega de contenidos en clases sincrónicas y asincrónicas con documento de lecturas que se irán revisando en reuniones sincrónicas los miércoles de 10:00 a 13:00 hrs.
+* [Investigar y Analizar.](Journal.md) Presentación de artículos científicos desde un Journal asignado cada semana.
+* [Proyecto.](Project.md) Se desarrollará un proyecto en el curso que será diseñado para tributar en un objetivo bioinformático de su tesis de magister.
 
 ## Curriculum
 

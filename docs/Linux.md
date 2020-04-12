@@ -7,7 +7,7 @@ EV: Crear una carpeta con su nombre/archivos y enviar un proceso a slurm, monito
 Este es el contenido que iremos revisando en el curso, donde se trabajará en un contexto general y revisión de 15-20 minutos por concepto con 30 minutos de una actividad. 
 
 # Linux. 
-El entorno de computación va ligado al sistema operativa que controla nuestro computador, en ciencias el entorno linux es el óptimo. Este sistema operativo esta en varios distribuciones de linux, donde las corrientes principales son de aquellos derivados desde Debian y RedHat. La interacción con este sistemas es a través de un entorno gráfico de lineas de comnados (sólo texto) denominado la **Terminal**. Mientras, en linux está disponible la terminal desde el primer momento, en otros sistemas operativas igual se encuentra en MacOSX está disponible como Terminal en aplicaciones, en Windows, sólo desde su versión 10, se puede habilitar este entorno. 
+El entorno de computación va ligado al sistema operativa que controla nuestro computador, en ciencias el entorno linux es el óptimo. Este sistema operativo esta en varios distribuciones de linux, donde las corrientes principales son de aquellos derivados desde Debian y RedHat. La interacción con este sistemas es a través de un entorno gráfico de lineas de comandos (sólo texto) denominado la **Terminal**. Mientras, en linux está disponible la terminal desde el primer momento, en otros sistemas operativas igual se encuentra en MacOSX está disponible como Terminal en aplicaciones, en Windows, sólo desde su versión 10, se puede habilitar este entorno. 
 
 ## Conceptos clave:
 * Distribuciones.
@@ -27,8 +27,8 @@ Instalar algunas de las siguientes distribuciones de linux:
 * [Windows10 - Activar Terminal](https://medium.com/@rodritorrico/tutorial-como-activar-la-terminal-de-linux-en-windows-10-beta-52769b5cab7e)
 * [MacosX - Habilitar terminal](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
 
-# Secure Shell (SSH).
-Reaizar trabajo de manera remota es una habilidad esencial de un bioinformático, esto se puede utilizar por varios protocolos, hoy en día se han popularizado las herramientas de almacenamiento en la nube como Dropbox y Google Drive. Mientras, a nivel de comunicación con un cluster o estación de trabajo se requiere enviar archivos entre computadoras donde el estándar es el protocolo SSH, que permite el ingreso a máquinas remotos, el envío de archivos, la adinistración y ejecución de trabajos.
+# Trabajo Remoto.
+Realizar trabajo de manera remota es una habilidad esencial de un bioinformático, esto se puede utilizar por varios protocolos, hoy en día se han popularizado las herramientas de almacenamiento en la nube como Dropbox y Google Drive. Mientras, a nivel de comunicación con un cluster o estación de trabajo se requiere enviar archivos entre computadoras donde el estándar es el protocolo SSH, que permite el ingreso a máquinas remotos, el envío de archivos, la adinistración y ejecución de trabajos.
 
 ## Conceptos clave:
 * Usuarios e IP.
